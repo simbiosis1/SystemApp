@@ -7,10 +7,10 @@ compilation-mappings.txt
 gwt-unitCache-*
 */*/build/*
 */*/bin/*
-*/*/war/organisation/*
 */*/war/WEB-INF/classes/*
 */*/war/WEB-INF/deploy/*
 *.symbolMap
+*/*/war/organisation/*
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
