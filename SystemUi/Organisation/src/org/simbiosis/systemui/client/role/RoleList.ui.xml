@@ -1,0 +1,15 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:e="urn:import:org.simbiosis.systemui.client.editor"
+	>
+	<g:DockLayoutPanel unit="PX">
+		<g:west size="250">
+			<e:RolesTable ui:field="roles"/>
+		</g:west>
+
+		<g:center>
+			<g:DockLayoutPanel ui:field="roleForm" unit="PX"/>
+		</g:center>
+	</g:DockLayoutPanel>
+</ui:UiBinder> 

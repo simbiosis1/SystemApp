@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SystemUi">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="SystemBpIntf.jar" deploy-path="/lib" handle="module:/resource/SystemBpIntf/SystemBpIntf">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="KembangModule.jar" deploy-path="/lib" handle="module:/resource/KembangModule/KembangModule">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GlBpIntf.jar" deploy-path="/lib" handle="module:/resource/GlBpIntf/GlBpIntf">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Organisation.war" deploy-path="/" handle="module:/resource/Organisation/Organisation">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GlIntf.jar" deploy-path="/lib" handle="module:/resource/GlIntf/GlIntf">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SystemDto.jar" deploy-path="/lib" handle="module:/resource/SystemDto/SystemDto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,43 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:e="urn:import:org.simbiosis.systemui.client.editor">
+	<g:HTMLPanel>
+		<table>
+			<tr>
+				<td class="formLabel">Kode</td>
+				<td>
+					<g:TextBox ui:field="code" styleName="formText" />
+				</td>
+			</tr>
+			<tr>
+				<td class="formLabel">Nama</td>
+				<td>
+					<g:TextBox ui:field="name" styleName="formText" />
+				</td>
+			</tr>
+			<tr>
+				<td class="formLabel">Alamat</td>
+				<td>
+					<g:TextBox ui:field="address" styleName="formText" />
+				</td>
+			</tr>
+			<tr>
+				<td class="formLabel" colspan="2">Akun antar kantor</td>
+			</tr>
+			<tr>
+				<td class="formLabel">Aktiva</td>
+				<td>
+					<e:CoaListEditor ui:field="coa1" styleName="formCombobox" />
+				</td>
+			</tr>
+			<tr>
+				<td class="formLabel">Pasiva</td>
+				<td>
+					<e:CoaListEditor ui:field="coa2" styleName="formCombobox" />
+				</td>
+			</tr>
+
+		</table>
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,37 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:e="urn:import:org.simbiosis.systemui.client.editor"
+	>
+	
+    <g:DockLayoutPanel unit="PX" height="100%">
+        <g:west size="5">
+            <g:HTMLPanel>&nbsp;</g:HTMLPanel>
+        </g:west>
+        
+        <g:north size="50">
+			<g:HTMLPanel>
+				<table>
+					<tr>
+						<td class="formLabel">Nama role</td>
+						<td>
+							<g:Label ui:field="name" styleName="formTextlabel" />
+						</td>
+					</tr>
+					<tr>
+						<td class="formLabel">Keterangan</td>
+						<td>
+							<g:Label ui:field="description" styleName="formTextlabel" />
+						</td>
+					</tr>
+				</table>
+			</g:HTMLPanel>
+		</g:north>
+					
+		<g:center>
+			<e:RoleMenuViewerTable ui:field="roleMenus"/>
+		</g:center>
+	</g:DockLayoutPanel>
+    
+
+</ui:UiBinder> 
